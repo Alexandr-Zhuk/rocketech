@@ -87,7 +87,7 @@ a{
 
 .slider > .container{
 	position: relative;
-	min-height: 1000px;
+	min-height: 975px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 255px 250px 100px;
@@ -228,6 +228,232 @@ a{
 	position: absolute;
 	bottom: 60px;
 	right: 48%;
+}
+
+section{
+	margin: 0;
+}
+
+.who-is{
+	padding-top: 90px;
+	padding-bottom: 107px;
+}
+
+.container > .benefits{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.container > h1{
+	margin: 0;
+	padding: 0;
+	font-size: 45px;
+	line-height: 73px;
+}
+
+.who-is-text{
+	max-width: 805px;
+	line-height: 33px;
+	margin: 24px 0 0 0;
+
+}
+
+.benefit-item{
+	display: flex;
+	align-items: center;
+	
+}
+
+.benefit-item:first-child .benefit-item-text{
+	max-width: 202px;
+}
+
+.benefit-item-text{
+	max-width: 141px;
+	font-weight: 600;
+}
+
+.benefit-item > .round-item{
+	width: 130px;
+	height: 130px;
+	background-image: url("../images/big-round.svg");
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 21px;
+	font-size: 36px;
+	line-height: 59px;
+	font-weight: 600;
+}
+
+.white-btn{
+	border-radius: 3px;
+	border: 1px solid #005DE8;
+	background-image: url("../images/blue-arrow.png");
+	background-position: top 50% right 26px;
+	background-repeat: no-repeat;
+	width: 239px;
+	margin-top: 55px;
+}
+
+.white-btn a{
+	color: #005DE8;
+	font-size: 14px;
+	font-weight: 600;
+	display: block;
+	height: 54px;
+	padding: 17px 26px;
+	box-sizing: border-box;
+
+}
+
+.crypto-app{
+	background-color: #1B1B1B;
+	min-height: 464px;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 300;
+	background-image: url("../images/bgrd-app.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 120px 0 146px 0;
+	box-sizing: border-box;
+}
+
+.crypto-app > .container h3{
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 59px;
+	margin: 0;
+}
+
+.crypto-text{
+	line-height: 33px;
+}
+
+.all-white-btn{
+	border-radius: 3px;
+	border: 1px solid #ffffff;
+	background-image: url("../images/white-arrow.svg");
+	background-position: top 50% right 26px;
+	background-repeat: no-repeat;
+	width: 239px;
+	margin-top: 27px;
+}
+
+.all-white-btn a{
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 600;
+	display: block;
+	height: 54px;
+	padding: 17px 26px;
+	box-sizing: border-box;
+
+}
+
+.directions-list{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 238px;
+	gap: 53px;
+}
+
+.directions-list > .direction-item{
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding-top: 55px;
+	box-shadow: 0px 10px 30px 0px #0000000D;
+	background-color: #ffffff;
+}
+
+.direction-item-text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 105px;
+}
+
+.directions-list > .direction-item div{
+	text-align: center;
+	
+}
+
+.current-diretction-item{
+	background: linear-gradient(273.43deg, #5C9FF9 -16.34%, #0058DC 97.2%);
+	color: #ffffff;
+}
+
+.directions h3{
+	font-size: 45px;
+	line-height: 73px;
+	font-weight: 600;
+	margin: 90px 0 0 0;
+	padding: 0;
+}
+
+.directions p{
+	line-height: 33px;
+	max-width: 805px;
+	margin: 0;
+	padding: 16px 0 70px 0;
+}
+
+.last-projects-pics{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.last-projects-pics > .last-projects-item{
+	width: 328px;
+	border-radius: 5px;
+	height: 503px;
+	display: grid;
+	grid-template-rows: 180px 106px 200px;
+	text-align: center;
+	background-color: rgba(51, 51, 51, 0.6);
+	background-repeat: no-repeat;
+	background: blur(2.5px);
+	-webkit-filter: blur(2.5px);
+	-moz-filter: blur(2.5px);
+}
+
+.project-item-header{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 21px;
+}
+
+.project-item-header,
+.picture{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.last-projects-item > .text{
+	line-height: 30px;
+	color: #ffffff;
+}
+
+.web-case{
+	background-image: url("../images/web-case.png");
+}
+
+.mobile-app{
+	background-image: url("../images/mobile-app.png");
+}
+
+.web-and-mobile{
+	background-image: url("../images/web-and-mobile.png");
 }
 
 
