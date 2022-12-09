@@ -1031,7 +1031,7 @@ section.clients{
 	.footer-info{
 		
 		grid-template-columns: 262px 262px;
-	
+		margin-bottom: 40px;
 	}
 
 
@@ -1207,7 +1207,7 @@ section.clients{
 		justify-content: center;
 	}
 
-	
+
 
 }
 
